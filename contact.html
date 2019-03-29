@@ -3,24 +3,32 @@
 <head>
     <meta charset="utf-8">
     <title>Gavin Iosso Contact</title>
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact-style.css">
 </head>
 <body>
-    <h1>Gavin</h1>
-    <h3 id="about">About</h3>
-    <h3 id="portfolio">Portfolio</h3>
-    <h3 id="contact">Contact</h3>
+    <div id="links">
+        <div id="gavin">
+            <h1>Gavin Iosso</h1>
+        </div>
+        <a id="contact" href="contact.html"><p>Contact</p></a>
+        <p class="break">|</p>
+        <a id="portfolio" href="portfolio.html"><p>Portfolio</p></a>
+        <p class="break">|</p>
+        <a id="about" href="index.html"><p>About</p></a> 
+    </div>
     <div id="main">
-        <h2>Contact</h2>
-        <form>
-        Name: <input type="text" name="Name">
-        Email: <input type="text" name="Email">
-        Message: <input type="text" name="Message">
-        <input type="submit" value="Submit">
-        </form> 
+        <div id="center">
+            <h2>Contact</h2>
+            <form>
+            <p>Name:</p><input id="name" type="text">
+            <p>Email:</p><input id="email" type="text">
+            <p>Message:</p><input id="message" type="text">
+            <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
     </div>
 </body>
 <footer>
-    <p>Copyright</p>
+    Copyright
 </footer>  
 </html>
