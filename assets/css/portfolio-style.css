@@ -60,10 +60,12 @@ a:link {
 }
 #center{
     width: 920px;
+    height: 850px;
     margin: 20px auto;
     padding: 20px;
     background: #ffffff;
     border: #dddddd solid 1px;
+    position: relative;
 }
 img{
     width: 293.3px;
@@ -77,21 +79,32 @@ h2{
     padding-bottom: 20px;
 }
 #project1{
-    float: left;
-    padding: 10px;
+    position: absolute;
+    left: 0%;
+    padding: 20px;
 }
 #project2{
-    padding: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 33%;
 }
 #project3{
-    float: left;
-    padding: 10px;    
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    padding: 20px;    
 }
 #project4{
-    padding: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 33%;
+    top: 40%;
 }
 #project5{
-    padding: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 0%;
+    top: 68%;
 }
  #p1s, #p2s, #p3s, #p4s, #p5s{
     background-color: #4aaaa5;
@@ -101,13 +114,9 @@ h2{
     color: #ffffff;
     font-family:'Georgia', Times, Times New Roman, serif;
     padding-top: 5px;
+    position: relative;
+    top: -75px;
 }
-/* #p1s{
-    float: right;
-}
-#p3s{
-    float: right;
-} */
 footer{
     text-align: center;
     background-color: #666666;
